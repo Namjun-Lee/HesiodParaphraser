@@ -37,7 +37,7 @@ def cosine_similarity(text1, text2):
     lemmatizer = WordNetLemmatizer()
     words1 = [lemmatizer.lemmatize(w.lower()) for w in word_tokenize(text1) if not w.lower() in stop_words]
     words2 = [lemmatizer.lemmatize(w.lower()) for w in word_tokenize(text2) if not w.lower() in stop_words]
-    tfidf_vectorizer = TfidfVectorizer()
+    tfidf_vectorizer = TfidfVectorizer() 
     tfidf_matrix = tfidf_vectorizer.fit_transform([text1, text2])
     return cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0][0]
 

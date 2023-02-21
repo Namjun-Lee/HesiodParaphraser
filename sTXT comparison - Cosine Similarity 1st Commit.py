@@ -50,6 +50,9 @@ similarity_1_4 = get_cosine_similarity(text1, text4)
 # Compute cosine similarity between txt1 and txt5
 similarity_1_5 = get_cosine_similarity(text1, text5)
 
+# Compute cosine similarity between txt2 and txt1
+similarity_2_1 = get_cosine_similarity(text2, text1)
+
 # Compute cosine similarity between txt2 and txt2
 similarity_2_2 = get_cosine_similarity(text2, text2)
 
@@ -61,6 +64,12 @@ similarity_2_4 = get_cosine_similarity(text2, text4)
 
 # Compute cosine similarity between txt2 and txt5
 similarity_2_5 = get_cosine_similarity(text2, text5)
+
+# Compute cosine similarity between txt3 and txt1
+similarity_3_1 = get_cosine_similarity(text3, text1)
+
+# Compute cosine similraity between txt3 and txt2
+similarity_3_2 = get_cosine_similarity(text3, text2)
 
 # Compute cosine similarity between txt3 and txt3
 similarity_3_3 = get_cosine_similarity(text3, text3)
@@ -77,6 +86,8 @@ similarity_4_4 = get_cosine_similarity(text4, text4)
 # Compute cosine similarity between txt4 and txt5
 similarity_4_5 = get_cosine_similarity(text4, text5)
 
+# Compute cosine similarity between txt5 and txt1
+similarity_5_1
 # Compute cosine similarity between txt5 and txt5
 similarity_5_5 = get_cosine_similarity(text5, text5)
 

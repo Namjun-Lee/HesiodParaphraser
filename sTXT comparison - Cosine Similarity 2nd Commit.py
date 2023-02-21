@@ -63,6 +63,5 @@ for i in range(len(texts)):
             color = "black"
         text = ax.text(j, i, score, ha="center", va="center", color=color)
                      
-# Show the plot
+# Show the heatmap plot 
 plt.show()
-
