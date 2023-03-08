@@ -13,7 +13,7 @@ openai.api_key = api_key
 input_text = "The Black Lives Matter (BLM) movement is a social and political movement that advocates for the rights and equality of Black individuals. The movement began in 2013 after the acquittal of Trayvon Martin's killer and gained momentum in the wake of police killings of Black Americans such as Michael Brown, Tamir Rice, and Freddie Gray. BLM protests have taken place across the United States and around the world, calling for an end to systemic racism and police brutality, as well as for economic and political justice for Black people. The movement has also pushed for reforms in areas such as education, housing, and healthcare. In addition to protests and demonstrations, BLM activists have also used social media, art, and other forms of cultural expression to raise awareness about the movements goals and message."
 
 #GPT-3 Engine & Parameters 
-model_engine = "text-curie-001"
+model_engine = "gpt-3.5-turbo"
 max_tokens = 1000
 temperature = 0.5
 top_p = 0.75
