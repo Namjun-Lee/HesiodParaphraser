@@ -4,7 +4,6 @@ from sklearn.metrics import jaccard_score
 import numpy as np
 import matplotlib.pyplot as plt 
 import pandas as pd 
-import seaborn as sns 
 from api_key import api_key
 # Personalized API key 
 openai.api_key = api_key
